@@ -1,21 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: sans-serif;
   height: 100vh;
   display: grid;
   place-items: center;
 }
-.container {
-  height: 600px;
-  width: 600px;
-  border: 2px solid black;
-  display: grid;
-  place-content: center;
-}
+
 .value {
   text-align: center;
   margin-bottom: 24px;
@@ -24,7 +13,6 @@ body {
 }
 .btn-wrapper {
   display: flex;
-  align-content: center;
   justify-content: center;
   gap: 40px;
 }
